@@ -63,11 +63,11 @@ captionLabel = _captionLabel;
     CGFloat top = MARGIN;
     CGFloat left = MARGIN;
     
-    // Image
-    CGFloat objectWidth = [[self.object objectForKey:@"width"] floatValue];
-    CGFloat objectHeight = [[self.object objectForKey:@"height"] floatValue];
-    CGFloat scaledHeight = floorf(objectHeight / (objectWidth / width));
-    self.imageView.frame = CGRectMake(left, top, width, scaledHeight);
+//    // Image
+//    CGFloat objectWidth = [[self.object objectForKey:@"width"] floatValue];
+//    CGFloat objectHeight = [[self.object objectForKey:@"height"] floatValue];
+//    CGFloat scaledHeight = floorf(objectHeight / (objectWidth / width));
+//    self.imageView.frame = CGRectMake(left, top, width, scaledHeight);
     
     // Label
     CGSize labelSize = CGSizeZero;
